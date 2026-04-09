@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./images/my_radkit_dev_journey_.gif" alt="Cisco RADKit" /></br>
+  <img src="./images/my_radkit_dev_journey__.gif" alt="Cisco RADKit" style="width:400" /></br>
 </p>
 
 # 🚀 My RADKit Dev Journey
