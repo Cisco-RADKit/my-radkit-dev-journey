@@ -24,10 +24,10 @@ Covers the `radkit_client` Python SDK: the primary library used to connect to RA
 
 | Code notebook | What it covers |
 |---|---|
-| 🔗 [**How to authenticate**](./Client%20API%20examples/01-authentication-connection.ipynb) | The different ways to authenticate and establish a connection: SSO login, certificate login, access token login, direct service connections, and HTTP proxy configuration |
-| 🔗 [**How to connect to my RADKit service**](./Client%20API%20examples/02-connect-to-my-service.ipynb) | How to plugin into your RADKit service |
-| 🔗 [**How to structure and manage scripts**](./Client%20API%20examples/03-structure-manage-scripts.ipynb) | How to correctly manage the `Client` lifecycle in scripts, Jupyter Notebooks, and FastAPI apps |
-| 🔗 [**How to execute commands on devices**](./Client%20API%20examples/04-execute-commands-on-devices.ipynb) | Inspect inventory, filter target devices, run commands on single or multiple devices, and handle execution results and partial failures. |
+| 🔗 [**How to authenticate**](./Client%20API%20examples/01-authentication-connection.ipynb) | Authenticating and establishing a connection: SSO login, certificate login, access token login, direct service connections, and HTTP proxy configuration |
+| 🔗 [**How to connect to my RADKit service**](./Client%20API%20examples/02-connect-to-my-service.ipynb) | Connecting and plugging into your RADKit service |
+| 🔗 [**How to structure and manage scripts**](./Client%20API%20examples/03-structure-manage-scripts.ipynb) | Managing the `Client` lifecycle in scripts, Jupyter Notebooks, and FastAPI apps |
+| 🔗 [**How to execute commands on devices**](./Client%20API%20examples/04-execute-commands-on-devices.ipynb) | Inspecting inventory, filtering target devices, running commands on single or multiple devices, and handling execution results and partial failures |
 | 🔗 [**How to parse command outputs with Genie**](./Client%20API%20examples/05-parse-outputs-with-genie.ipynb) | Parsing outputs with Genie parsers |
 | 🔗 [**How to transfer files**](./Client%20API%20examples/06-file-transfer.ipynb/) | Transferring files to and from devices using SCP/SFTP |
 | 🔗 [**How to use SNMP and NETCONF**](./Client%20API%20examples/07-snmp-and-netconf.ipynb) | Performing SNMP walk and get operations, and executing NETCONF/YANG calls against devices |
@@ -39,10 +39,10 @@ Covers the `ControlAPI`: the administrative plane for managing the RADKit servic
 
 | Code notebook | What it covers |
 |---|---|
-| 🔗 [**How to manage users**](./Control%20API%20examples/01-manage-users.ipynb) | Creating, listing, fetching, and deleting remote users |
-| 🔗 [**How to manage devices**](./Control%20API%20examples/02-manage-devices.ipynb) | Creating, listing, updating, and deleting devices; importing from CSV and JSON; using `DeviceType` enums instead of raw strings |
-| 🔗 [**How to manage labels**](./Control%20API%20examples/03-manage-labels.ipynb) | Creating and deleting labels; assigning labels to devices and users for RBAC scoping |
+| 🔗 [**How to manage users**](./Control%20API%20examples/01-manage-users.ipynb) | Creating, listing, fetching, updating and deleting remote users |
+| 🔗 [**How to manage devices**](./Control%20API%20examples/02-manage-devices.ipynb) | Same, but for your devices |
+| 🔗 [**How to manage labels**](./Control%20API%20examples/03-manage-labels.ipynb) | Managing your labels for remote users and devices when RBAC is enabled in your service |
 | 🔗 [**How to manage admins**](./Control%20API%20examples/04-manage-admins.ipynb) | Listing, creating, and deleting admin accounts on the service |
-| 🔗 [**How to manage roles**](./Control%20API%20examples/05-manage-roles.ipynb) | Listing, creating, and assigning custom roles; deleting roles |
+| 🔗 [**How to manage roles**](./Control%20API%20examples/05-manage-roles.ipynb) | Managing your roles for admin users |
 
 ---
